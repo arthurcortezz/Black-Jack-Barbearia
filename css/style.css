@@ -1,0 +1,62 @@
+@charset "utf-8";
+header{
+	background-image: url("../images/Background.jpg");
+	background-size: cover;
+	background-position: center;
+	
+	background-color: rgba(0,0,0,0.78);
+	background-blend-mode: multiply;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#navbar li a{
+  color: white;
+}
+#navbar{
+    display: flex !important;
+    justify-content: center !important;
+	color: white;
+}
+.navbar-left{
+	margin-right: 30px;
+}
+.navbar-right{
+	margin-left: 30px;
+}
+#esquerda{
+	text-align: right;
+}
+#direita{
+	text-align: left;
+}
+#centro{
+	text-align: center;
+}
+#texto{
+	margin-top: 85px;
+	text-align: center;
+	color: white;
+}
+#botao{
+	text-align: center;
+	margin-top: 70px;
+}
+#infobox{
+	margin-top: 121px;
+	text-align: center;
+	background-color: hsla(0,0%,0%,0.89);
+	color: white;
+	padding: 15px;
+}
+#corpo{
+	background: hsla(0,0%,31%,1.00);
+}
+#corpo h3{
+	color: white;
+}
+#pe{
+	background-color: black;
+}

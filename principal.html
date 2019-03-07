@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Black Jack</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+	    <nav class= "navbar navbar-expand-lg navbar-light" id="navbar">
+		  <div class= "navbar-left"> 
+		    <ul class= "navbar-nav"> 
+			  <li class= "nav-item active" > 
+				<a class= "nav-link" href= "#" ><b>BARBEARIA</b></a> 
+			  </li> 
+			  <li class= "nav-item active" > 
+				<a class= "nav-link" href= "#" ><b>SERVIÇOS</b></a> 
+			  </li> 
+			  <li class= "nav-item active" > 
+				<a class= "nav-link" href= "#" ><b>EQUIPE</b></a> 
+			  </li> 	
+			  <li class= "nav-item active" > 
+				<a class= "nav-link" href= "#" ><b>CLIENTES</b></a> 
+			  </li> 
+			</ul>
+		  </div>
+		  <div class="nav-logo">
+			<ul class="navbar-nav">
+			  <img src="images/banner.png" width="130" height="130">  
+			</ul>
+		  </div>
+		  <div class="navbar-right">
+			<ul class= "navbar-nav" > 
+			  <li class= "nav-item active" > 
+				<a class= "nav-link" href= "#" ><b>MÍDIA</b></a> 
+			  </li> 
+		      <li class= "nav-item active" > 
+				<a class= "nav-link" href= "#" ><b>AGENDAMENTO</b></a> 
+			  </li> 
+				<li class= "nav-item active" > 
+				  <a class= "nav-link" href= "#" ><b>BLOG</b></a> 
+				</li> 	
+				<li class= "nav-item active" > 
+				  <a class= "nav-link" href= "#" ><b>CONTATO</b></a> 
+				</li> 
+			  </ul>
+		  </div>
+		</nav>
+	  </div> 
+	</div> 			 
+  </div>
+  <div class="container">
+	<div class="col" id="texto">
+	  <h3>BARBEARIA BLACK JACK</h3>
+	  <h4>Experiência, dedicação, amor e entrega a profissão. </h4>
+	</div>
+  </div>	
+  <div id="botao">
+	<div class="form-group">
+	  <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modal-agendamento">
+	    AGENDE SEU HORÁRIO
+	  </button>
+	</div>
+  </div>
+  <div class="container" id="infobox">
+    <div class="row">
+	  <div class="col-sm-4">
+        <div class="info-box_text">
+          <div class="info-box_title"><b>HORÁRIO DE ATENDIMENTO</b></div>
+          	<div class="info-box_subtite">Segunda à sexta das 09h às 21h<br>
+							Sábados 08h às 18h<br>
+        				</div>
+    				</div>  
+				</div>
+				<div class="col-sm-4">
+        			<i class="fa fa-home id-color"></i>
+        			<div class="info-box_text">
+            			<div class="info-box_title" id="titulo"><b>LOCALIZAÇÃO</b></div>
+            			<div class="info-box_subtite">Rua Quintino Bocaiúva, 1481, Pajuçara <br> (Em frente ao Tão Bom Galeto) Localizado na Galeria Cittá Uffici, loja 05<br>
+						</div>
+       	 			</div>
+				</div>
+				<div class="col-sm-4">
+					<i class="fa fa-phone id-color"></i>
+					<div class="info-box_text">
+						<div class="info-box_title"><b>AGENDE SEU HORÁRIO</b></div>
+						<div class="info-box_subtite">(82) 3205-0415<br>
+						Estacionamento gratuito</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+</header>
+	
+<main>
+	<div class="row" id="corpo">
+	  <div class="col" id="esquerda">
+		<h6>Corte</h6>
+	  </div>
+	  <div class="col" id="centro">
+		<h6>................................................................</h6>
+	  </div>
+	  <div class="col" id="direita">
+		<h6>Valor</h6>
+	  </div>
+	</div>	
+</main>
+<footer>
+	<div id="pe">
+		<div class="footer-links">
+			<a href="#" target="_blank" class="icon-social instagram" data-toggle="tooltip" data-placement="top" title="Curta"></a> 
+		</div>
+		<p class="text-center">© 2018 - Black Jack Barbearia - Maceió/AL</p>
+	</div>
+</footer>
+
+<div class="modal fade" id="modal-agendamento" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+	  <div class="modal-header">
+		<h4 class="modal-title">Efetuar Agendamento</h4>
+		<button type="button" class="close" data-dismiss="modal">
+		  <span>&times;</span>
+		</button>			
+	  </div>		
+	  <div class="modal-body">
+		<form method="post" action="" target="_blank">	
+		  <div class="form-group">
+			<label for="nome" class="control-label">Nome</label>
+			<input type="text" class="form-control" name="nome" placeholder="Digite seu nome" required>
+		  </div>
+		  <div class="form-group">
+			<label for="telefone" class="control-label">Telefone</label>
+		    <input type="tel" class="form-control" name="telefone" placeholder="Digite seu telefone" required>
+		  </div>
+		  <div class="form-group">
+			<label for="mensagem" class="control-label">Observações</label>
+			<textarea class="form-control" name="mensagem" placeholder="Digite sua mensagem" rows="4" required></textarea>
+		  </div>	
+		  <div class="form-group">
+			<button type="submit" class="btn btn-success">Enviar</button>
+		  </div>
+		</form>
+	  </div>
+	</div>
+  </div>	
+</div>
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>

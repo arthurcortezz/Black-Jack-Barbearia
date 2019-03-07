@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+#form-container{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(file:///C:/Users/alunosenac/Desktop/HTML%20com%20Bootstrap/images/technology.png);
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(0,67,187,0.85);
+	background-blend-mode: multiply;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+#form-box{
+	width: 300px;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #ffffff;
+}
+
+#form-box input{
+	font-size: large;
+}
+.panel img{
+	max-width: 250px;
+}
+
+/*página principal*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
